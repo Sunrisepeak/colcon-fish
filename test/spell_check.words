@@ -2,9 +2,14 @@ apache
 colcon
 iterdir
 linter
+noqa
 pathlib
+plugin
+prepend
 pydocstyle
 pytest
 scspell
 setuptools
+speakshen
+sunrisepeak
 thomas
