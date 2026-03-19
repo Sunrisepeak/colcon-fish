@@ -1,15 +1,9 @@
 apache
 colcon
-dedup
-dsv
-env
-filenames
-fish
 iterdir
 linter
 noqa
 pathlib
-pathsep
 plugin
 prepend
 pydocstyle
@@ -17,7 +11,5 @@ pytest
 scspell
 setuptools
 speakshen
-splitlines
 sunrisepeak
 thomas
-topologically
