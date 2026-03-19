@@ -1,13 +1,26 @@
-template-package
-================
+colcon-fish
+===========
 
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to act as a template for new extensions.
+An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ that adds `fish shell <https://fishshell.com>`_ support.
 
-When using this template, be sure to replace all instances of the word "template" in the repository:
+After installation, ``colcon build`` automatically generates ``.fish`` setup scripts alongside the existing ``.sh`` / ``.bash`` / ``.zsh`` scripts.
 
-.. code-block:: console
+Quick start
+-----------
 
-   $ find * -type f | xargs sed -i 's/template-package/colcon-package-name/g'
-   $ find * -type f | xargs sed -i 's/template_package/colcon_package_name/g'
-   $ mv template_package colcon_package_name
-   $ grep -iR template *
+.. code-block:: fish
+
+   # Install
+   pip install -e /path/to/colcon-fish
+
+   # Build your workspace
+   cd ~/ros2_ws
+   colcon build
+
+   # Source in fish
+   source install/setup.fish
+
+   # Use
+   ros2 run my_package my_node
+
+See ``docs/`` for full documentation.
