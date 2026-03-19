@@ -9,7 +9,7 @@
 ## Install from source
 
 ```bash
-git clone https://github.com/colcon/colcon-fish.git
+git clone https://github.com/sunrisepeak/colcon-fish.git
 cd colcon-fish
 pip install -e .
 ```
