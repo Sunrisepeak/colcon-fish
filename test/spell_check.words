@@ -10,10 +10,14 @@ linter
 noqa
 pathlib
 pathsep
+plugin
+prepend
 pydocstyle
 pytest
 scspell
 setuptools
+speakshen
 splitlines
+sunrisepeak
 thomas
 topologically
